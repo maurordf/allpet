@@ -1,0 +1,499 @@
+body {
+  font-family: 'Roboto'; }
+  body header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    body header .logo {
+      padding-top: 3%; }
+      body header .logo .img_logo {
+        margin-left: 20%;
+        width: 100px;
+        height: 50px; }
+      body header .logo .img_logo:hover {
+        transform: scale(1.2, 1.2);
+        transition-duration: 1s; }
+    
+
+h1{
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-style: italic;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+         
+  }
+
+  .motivos .container_motiv{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+
+    }
+   
+        
+          .motivos .container_motiv img{
+            height: 100px;
+            width: 100px;
+            margin-left:40%;
+       
+            }
+          .motivos .container_motiv h3{
+             font-family: 'Roboto';
+                font-weight: 500;
+                font-size: 25px;
+                margin-top: 20px;
+                 text-align: center;
+            }
+
+          .motivos .container_motiv p{
+              font-family: 'Roboto';
+              font-weight: 300;
+              font-style: italic;
+              font-size: 15px;
+               margin-top: -20px;
+               text-align: center;
+            }
+      .btn_reg{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      }
+  .btn_reg .btn_reg_serv{
+
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-size: 20px;
+      margin: 0 auto;
+      background-color: #6413e3;
+      color: #ffffff;
+      border-color: #6413e3;
+      border-radius: 60px;
+      height: 50px;  
+      width: 200px; 
+    animation-name: animacion;
+  animation-duration: 6s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite; /*number|infinite|initial|inherit;*/
+}
+
+@keyframes animacion {
+  0%{background-color: white; transform: scale(1.1, 1.1); color: #6413e3; }
+  25%{background-color: #6413e3; transform: scale(1.0, 1.0);   color: #ffffff;}
+  50%{background-color: white; transform: scale(1.1, 1.1); color: #6413e3; }
+  75%{background-color: #6413e3; transform: scale(1.0, 1.0); color: #ffffff;}
+  100%{background-color: white; transform: scale(1.1, 1.1); color: #6413e3;}
+}}
+    .btn_reg .btn_reg_serv:hover {
+      background-color: #ffffff;
+      border-color: #6413e3;
+      color: #6413e3;
+      transition-duration: 1s;
+      }
+    .btn_reg .btn_reg_serv:focus {
+      box-shadow: none; }
+    .btn_reg .btn_reg_serv:active {
+      box-shadow: none; }
+    
+      .btn_reg  .modal .cruz {
+        color: white; }
+      .btn_reg  .modal .modal-content {
+        border-color: #6413e3;
+        border-radius: 15px;
+        background-color: #6413e3;
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-weight: 300; }
+        .btn_reg  .modal .modal-content h5 {
+          color: #ffffff;
+          font-family: 'Roboto';
+          font-weight: 500; }
+        .btn_reg  .modal .modal-content .modal-body {
+          background-color: #6413e3;
+          font-family: 'Roboto';
+          font-weight: 300;
+          color: #ffffff; }
+          .btn_reg  .modal .modal-content .modal-body h6 {
+            padding-top: 3%;
+            font-family: 'Roboto';
+            font-weight: 300;
+            font-size: 13px;
+            color: #ffffff;
+            text-decoration: none; }
+        .btn_reg  .modal .modal-content .btn_send_modal {
+          margin-left: 35%;
+          font-family: 'Roboto';
+          font-weight: 300;
+          background-color: white;
+          color: #6413e3;
+          border-color: #6413e3;
+          border-radius: 20px;
+          width: 120px;
+          margin-bottom: 10px; }
+
+.img_banner{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}   
+
+.img_banner .img_pet_a{
+  margin-top: -120px;
+   transform: scale(1.1, 1.1);
+}
+.img_banner .img_pet_b{
+  margin-top: -30px;
+width: 200%;
+ transform: scale(1.1, 1.1);
+}
+.img_banner .img_pet_c{
+  margin-top: -200px;
+width: 120%;
+}
+.img_banner .img_pel_a{
+  margin-top: -150px;
+width: 150%;
+}
+.img_banner .img_vet_a{
+  margin-top: -120px;
+}  
+.img_banner .img_vet_b{
+  margin-top: -120px;
+}  
+.img_banner .img_vet_c{
+  margin-top: -80px;
+}  
+
+.img_banner .img_pas_a{
+width: 150%;
+}  
+.img_banner .img_pas_b{
+ width: 150%;
+}  
+.img_banner .img_pas_c{
+  margin-top: -80px;
+}     
+  .cont_footer{
+    background-color: black;
+  }     
+footer {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  footer .contacto {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .contacto .btn_contacto {
+      font-family: 'Roboto';
+      font-weight: 300;
+      margin-left: 37%;
+      background-color: #6413e3;
+      color: #ffffff;
+      border-color: #6413e3;
+      border-radius: 20px;
+      width: 120px; }
+    footer .contacto .btn_contacto:hover {
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #000000;
+      width: 120px;
+      transition-duration: 1s;
+      font-size: 17px; }
+    footer .contacto .btn_contacto:focus {
+      box-shadow: none; }
+    footer .contacto .btn_contacto:active {
+      box-shadow: none; }
+    footer .contacto .modal {
+      color: #6413e3; }
+      footer .contacto .modal .cruz {
+        color: white; }
+      footer .contacto .modal .modal-content {
+        border-color: #6413e3;
+        border-radius: 15px;
+        background-color: #6413e3;
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-weight: 300; }
+        footer .contacto .modal .modal-content h5 {
+          color: #ffffff;
+          font-family: 'Roboto';
+          font-weight: 500; }
+        footer .contacto .modal .modal-content .modal-body {
+          background-color: #6413e3;
+          font-family: 'Roboto';
+          font-weight: 300;
+          color: #ffffff; }
+          footer .contacto .modal .modal-content .modal-body h6 {
+            padding-top: 3%;
+            font-family: 'Roboto';
+            font-weight: 300;
+            font-size: 13px;
+            color: #ffffff;
+            text-decoration: none; }
+        footer .contacto .modal .modal-content .btn_send_modal {
+          margin-left: 35%;
+          font-family: 'Roboto';
+          font-weight: 300;
+          background-color: white;
+          color: #6413e3;
+          border-color: #6413e3;
+          border-radius: 20px;
+          width: 120px;
+          margin-bottom: 10px; }
+  footer .legales {
+    width: 33%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .legales h6 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 300; }
+    footer .legales .txt_legales {
+      text-align: center; }
+    footer .legales .txt_legales a {
+      font-size: 13px;
+      font-weight: 100;
+      font-style: italic;
+      color: white; }
+    footer .legales .txt_legales a:hover {
+      font-size: 18px;
+      transition: 1s;
+      text-decoration: none; }
+  footer .redes {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center; }
+    footer .redes h6 {
+      font-size: 18px;
+      font-weight: 300; }
+    footer .redes .btns_redes {
+      margin: 0 auto;
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      footer .redes .btns_redes .btn_insta img {
+        height: 45px;
+        width: 45px; }
+      footer .redes .btns_redes .btn_insta:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s; }
+      footer .redes .btns_redes .btn_face img {
+        height: 42px;
+        width: 42px; }
+      footer .redes .btns_redes .btn_face:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s; }
+      footer .redes .btns_redes .btn_linkedin img {
+        height: 45px;
+        width: 45px; }
+      footer .redes .btns_redes .btn_linkedin:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s; }
+
+
+
+/*Comienzo version tablet*/
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+          .motivos .container_motiv img{
+            height: 70px;
+            width: 70px;
+       
+            }
+          .motivos .container_motiv h3{
+                font-size: 25px;
+                margin-top: 20px;
+            }
+
+          .motivos .container_motiv p{
+              font-size: 15px;
+               margin-top: -20px;
+            }
+
+  .img_banner{
+        height: 300px;
+        overflow: hidden;
+        
+}   
+
+    .img_banner .img_pas_b{
+      margin-top: -20px;
+    } 
+    .img_banner .img_pas_c{
+      margin-top: 10px;
+     transform: scale(1.3, 1.3);
+    } 
+
+.img_banner .img_pel_a{
+}
+.img_banner .img_pel_b{
+  margin-top: -100px; 
+}
+.img_banner .img_pel_c{
+  margin-top: -140px;
+
+}
+
+.img_banner .img_vet_b{
+  margin-top: -20px;
+}  
+.img_banner .img_vet_c{
+  margin-top: -40px;
+}  
+
+.img_banner .img_pet_a{
+  margin-top: 20px;
+   transform: scale(1.3, 1.3);
+}
+.img_banner .img_pet_b{
+  margin-top: 50px;
+  transform: scale(1.3, 1.3);
+}
+.img_banner .img_pet_c{
+  margin-top: -30px;
+width: 120%;
+}
+      footer .contacto {
+      width: 30%;
+      justify-content: space-around; }
+    footer .legales {
+      width: 30%;
+      margin: 0 auto; 
+      justify-content: space-around; }
+     footer .redes {
+      width: 27%;
+      margin-top: 5px;
+      margin: 0 auto; }
+    footer .redes .btns_redes {
+      margin: 0 auto;
+      width: 80%; }
+      footer .redes .btns_redes .btn_insta img {
+        height: 45px;
+        width: 45px; }
+      footer .redes .btns_redes .btn_face img {
+        height: 42px;
+        width: 42px; }
+      footer .redes .btns_redes .btn_linkedin img {
+        height: 45px;
+        width: 45px; } 
+
+ }
+
+
+
+
+
+/*Comienzo version mobile*/
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+ 
+
+h1{
+        font-size: 20px;
+         
+  }
+
+          .motivos{
+            margin: 0 auto; 
+            width: 300px;
+
+
+           }
+          .motivos .container_motiv img{
+            height: 70px;
+            width: 70px;
+       
+            }
+          .motivos .container_motiv h3{
+           
+                font-size: 15px;
+                margin-top: 20px;
+            }
+
+          .motivos .container_motiv p{
+              font-size: 13px;
+               margin-top: -20px;
+          
+            }
+
+
+    .img_banner{
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        margin-bottom: 15px;
+}   
+
+
+.img_banner .img_pet_a{
+  margin-top: -100px;
+   transform: scale(1.0, 1.0);
+}
+.img_banner .img_pet_b{
+  margin-top: -20px;
+   transform: scale(1.0, 1.0);
+width: 200%;
+}
+.img_banner .img_pet_c{
+  margin-top: -150px;
+   transform: scale(1.0, 1.0);
+width: 120%;
+}
+.img_banner .img_pel_a{
+  margin-top: -80px;
+}
+.img_banner .img_vet_a{
+  margin-top: -120px;
+}  
+.img_banner .img_vet_b{
+  margin-top: -70px;
+}  
+.img_banner .img_vet_c{
+  margin-top: -80px;
+}  
+
+.img_banner .img_pas_c{
+  margin-top: 10px;
+ transform: scale(1.3, 1.3);
+}  
+  footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .contacto {
+      width: 100%;
+      justify-content: space-around; }
+    footer .legales {
+      width: 100%;
+      justify-content: space-around; }
+    footer .redes {
+      width: 50%;
+      margin-top: 5px;
+      margin: 0 auto; }
+     }

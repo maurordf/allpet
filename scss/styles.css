@@ -1,0 +1,505 @@
+body {
+  font-family: 'Roboto'; }
+  body header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    body header .logo {
+      padding-top: 3%; }
+      body header .logo .img_logo {
+        margin-left: 20%;
+        width: 100px;
+        height: 50px; }
+      body header .logo .img_logo:hover {
+        transform: scale(1.2, 1.2);
+        transition-duration: 1s; }
+    body header .buscador {
+      margin-top: 2%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      body header .buscador .btn_search {
+        height: 35px;
+        width: 35px; }
+      body header .buscador .btn_search:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s; }
+      body header .buscador input {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 13px;
+        color: #6413e3;
+        border-color: #6413e3;
+        border-radius: 15px; }
+    body header .usuario {
+      margin-top: 3%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      body header .usuario .modal {
+        color: #6413e3; }
+        body header .usuario .modal .modal-content {
+          border-color: #6413e3;
+          border-radius: 15px; }
+          body header .usuario .modal .modal-content h5 {
+            font-family: 'Roboto';
+            font-weight: 500; }
+          body header .usuario .modal .modal-content .modal-body {
+            background-color: #6413e3;
+            font-family: 'Roboto';
+            font-weight: 300;
+            color: #ffffff;
+            border-radius: 15px; }
+            body header .usuario .modal .modal-content .modal-body .cruz {
+              color: white; }
+            body header .usuario .modal .modal-content .modal-body h6 {
+              padding-top: 3%;
+              font-family: 'Roboto';
+              font-weight: 300;
+              font-size: 13px;
+              color: #ffffff;
+              text-decoration: none; }
+            body header .usuario .modal .modal-content .modal-body .btn_log_modal {
+              margin-left: 35%;
+              font-family: 'Roboto';
+              font-weight: 300;
+              background-color: white;
+              color: #6413e3;
+              border-color: #6413e3;
+              border-radius: 20px;
+              width: 120px; }
+          body header .usuario .modal .modal-content h6 {
+            margin-left: -20px;
+            text-align: center; }
+          body header .usuario .modal .modal-content .btns_registros {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around; }
+            body header .usuario .modal .modal-content .btns_registros img {
+              height: 150px;
+              width: 150px; }
+      body header .usuario .btn_log_movile {
+        font-family: 'Roboto';
+        font-weight: 300;
+        background-color: white;
+        color: #6413e3;
+        border-color: #6413e3;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px; }
+      body header .usuario .btn_log_movile:hover {
+        background-color: #6413e3;
+        color: white;
+        transition-duration: 1s; }
+      body header .usuario .btn_log_movile:focus {
+        box-shadow: none; }
+      body header .usuario .btn_log_movile:active {
+        box-shadow: none; }
+      body header .usuario .btn_reg_movile {
+        font-family: 'Roboto';
+        font-weight: 300;
+        background-color: #6413e3;
+        color: white;
+        border-color: #6413e3;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px; }
+    body header .btn_reg_movile:hover {
+      background-color: white;
+      color: #6413e3;
+      transition-duration: 1s; }
+    body header .btn_reg_movile:focus {
+      box-shadow: none; }
+    body header .btn_reg_movile:active {
+      box-shadow: none; }
+
+.buscador_2 {
+  display: none; }
+
+.titulo_ppal {
+  margin-top: 5%;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: black;
+  font-size: 40px;
+  text-align: center; }
+
+.content_servicios {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .content_servicios .btnmenu {
+    height: 113.75px;
+    width: 90.25px; }
+  .content_servicios .btnmenu:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 1s; }
+
+.download {
+  margin-top: 6%; }
+  .download .insight_img {
+    margin-left: -15px;
+    width: 100%;
+    padding-left: 8%; }
+  .download .insight_text {
+    padding-right: 5%;
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: black;
+    font-size: 25px;
+    padding-top: 5%; }
+    .download .insight_text h2 {
+      font-family: 'Roboto';
+      font-weight: 300;
+      padding-top: 9%;
+      text-align: center;
+      padding-right: 5%; }
+    .download .insight_text p {
+      padding-right: 5%;
+      padding-top: 9%; }
+    .download .insight_text .btn_stores {
+      padding-top: 5%;
+      padding-left: 20%; }
+      .download .insight_text .btn_stores .btndown {
+        margin: 10px;
+        height: 40px; }
+    .download .insight_text .btndown:hover {
+      transform: scale(1.2, 1.2);
+      transition-duration: 1s; }
+
+.ofertas {
+  margin-top: 3%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: #6413e3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  .ofertas h3 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 45px;
+    padding-top: 3%;
+    color: white;
+    text-align: center; }
+  .ofertas .carousel {
+    font-family: 'Roboto';
+    font-weight: 100;
+    padding-top: 4%; }
+    .ofertas .carousel h5 {
+      font-family: 'Roboto';
+      font-weight: 300; }
+
+.motivos .frase h2 {
+  margin-top: 2%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 45px; }
+.motivos .container_motiv {
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  .motivos .container_motiv img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30%; }
+  .motivos .container_motiv h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 23px;
+    margin-top: 20px; }
+  .motivos .container_motiv p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: -20px; }
+
+.prestadores {
+  margin-top: 3%; }
+  .prestadores .frase h2 {
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 45px; }
+  .prestadores .btnpresta {
+    margin-top: 20%;
+    overflow: hidden;
+    height: 400px;
+    width: 100%; }
+    .prestadores .btnpresta .txt_btn_presta {
+      margin-top: 3%;
+      text-align: center;
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-size: 15px;
+      color: black; }
+    .prestadores .btnpresta .img_prestador {
+      margin-top: 3%;
+      filter: grayscale(100); }
+  .prestadores .btnpresta:hover .txt_btn_presta {
+    font-size: 30px;
+    color: black; }
+  .prestadores .btnpresta:hover .img_prestador {
+    filter: grayscale(0); }
+
+.textofrase {
+  padding-top: 1%;
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 30px;
+  color: black;
+  text-align: center; }
+
+.submenu_servicios {
+  background-image: linear-gradient(to left, #7d2181, #4c2882); }
+  .submenu_servicios .submenu {
+    overflow: hidden; }
+    .submenu_servicios .submenu .btnmenu h4 {
+      color: white;
+      height: 75px;
+      padding: 5px;
+      font-weight: 100;
+      font-size: 25px;
+      font-family: 'Roboto';
+      text-align: center; }
+    .submenu_servicios .submenu .btnmenu h4:hover {
+      font-weight: 300;
+      font-size: 35px; }
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  font-size: 15px;
+  padding: 50px;
+  text-align: left; }
+  .terms h1, .terms h2, .terms h3, .terms h4, .terms h5, .terms h6 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+    align-items: left;
+    margin-bottom: 30px; }
+  .terms p {
+    width: 70%;
+    margin-left: 10%; }
+  .terms ul {
+    margin-left: 10%; }
+
+footer {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  footer .contacto {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .contacto .btn_contacto {
+      font-family: 'Roboto';
+      font-weight: 300;
+      margin-left: 37%;
+      background-color: #6413e3;
+      color: #ffffff;
+      border-color: #6413e3;
+      border-radius: 20px;
+      width: 120px; }
+    footer .contacto .btn_contacto:hover {
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: #000000;
+      width: 120px;
+      transition-duration: 1s;
+      font-size: 17px; }
+    footer .contacto .btn_contacto:focus {
+      box-shadow: none; }
+    footer .contacto .btn_contacto:active {
+      box-shadow: none; }
+    footer .contacto .modal {
+      color: #6413e3; }
+      footer .contacto .modal .cruz {
+        color: white; }
+      footer .contacto .modal .modal-content {
+        border-color: #6413e3;
+        border-radius: 15px;
+        background-color: #6413e3;
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-weight: 300; }
+        footer .contacto .modal .modal-content h5 {
+          color: #ffffff;
+          font-family: 'Roboto';
+          font-weight: 500; }
+        footer .contacto .modal .modal-content .modal-body {
+          background-color: #6413e3;
+          font-family: 'Roboto';
+          font-weight: 300;
+          color: #ffffff; }
+          footer .contacto .modal .modal-content .modal-body h6 {
+            padding-top: 3%;
+            font-family: 'Roboto';
+            font-weight: 300;
+            font-size: 13px;
+            color: #ffffff;
+            text-decoration: none; }
+        footer .contacto .modal .modal-content .btn_send_modal {
+          margin-left: 35%;
+          font-family: 'Roboto';
+          font-weight: 300;
+          background-color: white;
+          color: #6413e3;
+          border-color: #6413e3;
+          border-radius: 20px;
+          width: 120px;
+          margin-bottom: 10px; }
+  footer .legales {
+    width: 33%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .legales h6 {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 300; }
+    footer .legales .txt_legales {
+      text-align: center; }
+    footer .legales .txt_legales a {
+      font-size: 13px;
+      font-weight: 100;
+      font-style: italic;
+      color: white; }
+    footer .legales .txt_legales a:hover {
+      font-size: 18px;
+      transition: 1s;
+      text-decoration: none; }
+  footer .redes {
+    width: 33%;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center; }
+    footer .redes h6 {
+      font-size: 18px;
+      font-weight: 300; }
+    footer .redes .btns_redes {
+      margin: 0 auto;
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      footer .redes .btns_redes .btn_insta img {
+        height: 65px;
+        width: 65px; }
+      footer .redes .btns_redes .btn_insta:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s; }
+      footer .redes .btns_redes .btn_face img {
+        height: 62px;
+        width: 62px; }
+      footer .redes .btns_redes .btn_face:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s; }
+      footer .redes .btns_redes .btn_linkedin img {
+        height: 65px;
+        width: 65px; }
+      footer .redes .btns_redes .btn_linkedin:hover {
+        transform: scale(1.2, 1.2);
+        transition: 1s; }
+
+/*Comienzo version mobile*/
+@media only screen and (max-width: 600px) {
+  body header .buscador {
+    display: none; }
+  body .buscar {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  body .buscador_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+    body .buscador_2 .btn_search {
+      margin-left: 3px;
+      height: 35px;
+      width: 35px; }
+    body .buscador_2 .btn_search:hover {
+      transform: scale(1.2, 1.2);
+      transition: 1s; }
+    body .buscador_2 input {
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-size: 13px;
+      color: #6413e3;
+      border-color: #6413e3;
+      border-radius: 15px;
+      width: 200px; }
+  body .titulo_ppal {
+    font-size: 30px; }
+  body .content_servicios .servicios .btnmenu {
+    height: 73.75px;
+    width: 55.25px; }
+
+  .insight h2 {
+    margin-top: -50px;
+    font-size: 30px; }
+  .insight p {
+    margin-left: 15px;
+    font-size: 20px; }
+  .insight .btn_stores {
+    margin-left: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px; }
+
+  .ofertas h3 {
+    font-size: 30px; }
+
+  .prestadores .frase .textofrase {
+    font-size: 30px; }
+
+  .terms h1, .terms h2, .terms h3, .terms h4, .terms h5, .terms h6 {
+    font-size: 20px; }
+  .terms p {
+    font-size: 15px; }
+  .terms ul {
+    font-size: 10px; }
+
+  footer {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    footer .contacto {
+      width: 100%;
+      justify-content: space-around; }
+    footer .legales {
+      width: 100%;
+      justify-content: space-around; }
+    footer .redes {
+      width: 100%;
+      margin-top: 5px;
+      text-align: center; }
+      footer .redes .btns_redes .btn_insta img {
+        height: 45px;
+        width: 45px; }
+      footer .redes .btns_redes .btn_face img {
+        height: 42px;
+        width: 42px; }
+      footer .redes .btns_redes .btn_linkedin img {
+        height: 45px;
+        width: 45px; } }
+
+/*# sourceMappingURL=styles.css.map */
